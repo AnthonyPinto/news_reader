@@ -21,8 +21,7 @@ NewsReader.Routers.Router = Backbone.Router.extend({
   },
   
   feedShow: function(id) {
-    var feed = NewsReader.Collections.feeds.get(id);
-    feed.fetch();
+    var feed = NewsReader.Collections.feeds.getOrFetch(id);
     // Feed show page is actually entries index view. 
     var feedView = new NewsReader.Views.EntryIndex({ 
       model: feed
