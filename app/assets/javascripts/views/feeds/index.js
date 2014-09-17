@@ -2,10 +2,22 @@
 
 NewsReader.Views.FeedIndex = Backbone.View.extend({
   initialize: function () {
-    this.listenTo(this.collection, "sync", this.render);
+    this.listenTo(this.collection, "sync destroy", this.render);
+  },
+  
+  events: {
+    "click button.delete-feed": "deleteFeed"
   },
   
   template: JST['feeds/index'],
+  
+  deleteFeed: function (event) {
+    var id = $(event.currentTarget).data("feed-id");
+    var feed = this.collection.get(id);
+    feed.destroy({
+      
+    });
+  },
   
   tagName: 'ul',
   

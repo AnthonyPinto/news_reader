@@ -1,5 +1,12 @@
 <h3>
   <div>
-    <%= feed.escape("title")%>
+    <a href="<%= "#/feeds/" + feed.escape('id') %>">
+      <%= feed.escape("title")%>
+    </a>
+    <button 
+      class='delete-feed' 
+      data-feed-id="<%= feed.escape('id') %>">
+      delete
+    </button>
   </div>
 </h3>
