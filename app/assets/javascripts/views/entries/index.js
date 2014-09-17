@@ -4,7 +4,11 @@ NewsReader.Views.EntryIndex = Backbone.View.extend({
   initialize: function () {
     this.collection = this.model.entries();
     this.listenTo(this.model, "sync", this.render);
-    
+    this.listenTo(this.collection, "sync", this.render);
+  },
+  
+  events: {
+    "click button.refresh": "refresh"
   },
   
   template: JST["entries/index"],
@@ -16,10 +20,14 @@ NewsReader.Views.EntryIndex = Backbone.View.extend({
     this.collection.each (function (entry) {
       var showView = new NewsReader.Views.ShowEntry({model: entry});
       showView = showView.render();
-      this.$el.find("ul").append(showView.$el);
+      this.$el.find("ul").prepend(showView.$el);
     }.bind(this));
 
     return this;
+  },
+  
+  refresh: function () {
+    this.model.fetch();
   }
   
 });

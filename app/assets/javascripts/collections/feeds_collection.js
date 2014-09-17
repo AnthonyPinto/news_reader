@@ -3,6 +3,7 @@
 NewsReader.Collections.Feeds = Backbone.Collection.extend({
   model: NewsReader.Models.Feed,
   url: "api/feeds",
+
   
   getOrFetch: function (id) {
     var model = this.get(id);

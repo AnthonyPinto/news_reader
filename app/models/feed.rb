@@ -32,7 +32,7 @@ class Feed < ActiveRecord::Base
   end
   
   def latest_entries
-    if self.updated_at < 30.seconds.ago
+    if self.updated_at < 1.seconds.ago
       reload
     end
     self.entries
