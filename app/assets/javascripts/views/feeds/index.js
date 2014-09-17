@@ -17,15 +17,16 @@ NewsReader.Views.FeedIndex = Backbone.View.extend({
     feed.destroy({wait: true});
   },
   
-  tagName: 'ul',
-  
   render: function () {
     var content = this.template();
     this.$el.html(content);
+    
     this.collection.each(function (feed) {
       var view = new NewsReader.Views.ShowFeed({model: feed});
-      this.$el.append(view.render().$el);
+      view = view.render();
+      this.$el.find("ul").append(view.$el);
     }.bind(this));
+    
     return this;
   }
 });

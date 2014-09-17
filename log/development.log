@@ -20949,3 +20949,376 @@ Binary data inserted for `string` type on column `title`
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:48:59 UTC +00:00], ["feed_id", 8], ["guid", "http://qz.com/?p=266329"], ["json", "{\"title\":\"Countries can rescue the planet from meltdown and save money doing it\",\"link\":\"http://qz.com/266329/countries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it/\",\"description\":\"The world is pumping carbon dioxide into the air at the fastest rate since 1984. Last month was the hottest August on record. The superlatives say it all: We\\u0026#8217;re running out of time to avoid climate change\\u0026#8217;s most disastrous consequences. So why the inaction on slashing CO2 emissions? Chief objections usually come down to the high costs (paywall) of shifting [\\u0026#8230;]\\u003Cimg alt=\\\"\\\" border=\\\"0\\\" src=\\\"http://pixel.wp.com/b.gif?host=qz.com\\u0026#038;blog=39587363\\u0026#038;post=266329\\u0026#038;subd=qzprod\\u0026#038;ref=\\u0026#038;feed=1\\\" width=\\\"1\\\" height=\\\"1\\\" /\\u003E\",\"content\":\"\",\"content_encoded\":\"\\u003Cimg width=\\\"640\\\" height=\\\"360\\\" src=\\\"http://img.qz.com/2014/09/climate-change-global-warming-calderon-commission-report-celsius.jpg?w=640\\\" class=\\\"attachment-medium_10 wp-post-image\\\" alt=\\\"climate change global warming sotrm 2030 commission calderon A wave-like cloud looms over Sydney\\u0026#039;s Manly Beach during an afternoon storm front, March 5, 2014. The storm, which generated little rain, was blown out to sea. REUTERS/Will Burgess\\\" /\\u003E\\u003Cp\\u003EThe world is pumping carbon dioxide into the air at the \\u003Ca href=\\\"http://www.bbc.com/news/science-environment-29115845\\\"\\u003Efastest rate since 1984\\u003C/a\\u003E. Last month was the \\u003Ca href=\\\"http://www.climatecentral.org/news/nasa-globe-warmest-august-18031\\\"\\u003Ehottest August on record\\u003C/a\\u003E. The superlatives say it all: We\\u0026#8217;re running out of time to avoid climate change\\u0026#8217;s most disastrous consequences.\\u003C/p\\u003E\\n\\u003Cp\\u003ESo why the inaction on slashing CO2 emissions? Chief objections usually \\u003Ca href=\\\"http://online.wsj.com/articles/carbon-income-inequality-1401752504\\\" target=\\\"_blank\\\"\\u003Ecome down to the high costs\\u003C/a\\u003E (paywall) of shifting from coal and other cheap, but high-polluting, energy sources.\\u003C/p\\u003E\\n\\u003Cp\\u003E\\u0026#8220;The main problem we are looking at among the leaders of countries and business communities is\\u0026#8230; a general perception that taking action [on climate change] will reduce economic growth, reduce creation of jobs,\\u0026#8221; says Felipe Calderon, former president of Mexico and chair of the Global Commission on the Economy and Climate.\\u003C/p\\u003E\\n\\u003Cp\\u003EBut that\\u0026#8217;s a \\u0026#8220;false dilemma,\\u0026#8221; he says. \\u0026#8220;We don\\u0026#8217;t have to choose between economic growth and safe climate—we can have both.\\u0026#8221;\\u003C/p\\u003E\\n\\u003Cp\\u003EHere\\u0026#8217;s what the GCEC argued in its \\u003Ca href=\\\"http://newclimateeconomy.report/\\\" target=\\\"_blank\\\"\\u003Ereport on climate change and economic growth\\u003C/a\\u003E, released ahead of UN secretary general Ban Ki-moon\\u0026#8217;s climate summit next week.\\u003C/p\\u003E\\n\\u003Cp\\u003EIf the $90 trillion that will be spent globally on cities, agriculture, and energy systems in the next 15 years is invested in low-carbon infrastructure and technology, economies actually will save money. Mind you, that low-carbon infrastructure will cost more upfront, about $4 trillion extra, turning that $90 trillion into a $94 trillion commitment. But according to the GCEC, the investment would generate $5 trillion in savings from factors like lower operating costs for renewable energy sources (versus fossil fuels) and increased energy efficiency, making this the cheaper option in the long run.\\u003C/p\\u003E\\n\\u003Cp\\u003EAnd that\\u0026#8217;s \\u003Cem\\u003Ebefore \\u003C/em\\u003Eyou calculate the benefits of avoiding disastrously high levels of CO2. As things stand, it is almost certain that the planet will warm to more than 2ºC (3.6ºF) higher than preindustrial levels, which is basically global warming\\u0026#8217;s Sleepy Hollow Bridge, beyond which wait Sandy-on-steroids storm surges, ice-sheet collapses, rampant droughts, and other assorted climatic calamities. Crossing that threshold will shave 0.5% to 2% off global GDP by mid-century, according to the GCEC report.\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266450\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266450\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266450%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266450%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/newclimateeconomy_investment2_colorcorrected.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/newclimateeconomy_investment2_colorcorrected.jpeg?w=675\\\" alt=\\\"\\\" title=\\\"​\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E​\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003EThe report focuses on three areas—cities, agricultural land, and energy—in which policy can dramatically reduce greenhouse gas (GHG) emissions while boosting growth.\\u003C/p\\u003E\\n\\u003Cp\\u003EHistorically speaking, we\\u0026#8217;ve been pretty bad at anticipating how much energy the poor countries will use as they grow. Not much has changed; but for argument\\u0026#8217;s sake, the GCEC has forecast that China, India, and other developing countries will demand 20% to 35% more energy by 2030. Most of that most of that is likely to come from coal:\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266418\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266418\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266418%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266418%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/nce-report_demand-and-production-coal_colorcorrected-1.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/nce-report_demand-and-production-coal_colorcorrected-1.jpeg?w=794\\\" alt=\\\"\\\" title=\\\"​\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E​\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003EMuch of the $45 trillion in energy-infrastructure spending needed to meet this demand won\\u0026#8217;t fall to rich Western countries to decide, but to fast-growing nations like China and India. Current technology would allow renewable energy to make up up half of the new electricity generation capacity from now until 2030. But will emerging economies invest in it—or in cheap coal-fired power plants?\\u003C/p\\u003E\\n\\u003Cp\\u003EOn this matter, the incentives are fairly screwy. Right now, the world\\u0026#8217;s governments spend about $600 billion a year to make fossil fuels cheaper, while putting up only $100 billion for renewable energy subsidies:\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266419\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266419\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266419%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266419%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/colorcorrected-12.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/colorcorrected-12.jpeg?w=800\\\" alt=\\\"\\\" title=\\\"​\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E​\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003ECheaper fossil fuels might help businesses in the short run, but they come with other costs—like the lives of 7 million people a year:\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266422\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266422\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266422%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266422%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/gdp-costs-of-air-pollution-nce-report_colorcorrected.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/gdp-costs-of-air-pollution-nce-report_colorcorrected.jpeg?w=717\\\" alt=\\\"\\\" title=\\\"​\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E​\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003EIf anything, carbon should cost more than it does. Taxing carbon to cover its associated costs will compel businesses and governments to invest in sustainable growth. But while the prices of wind, solar, and other renewable energies is falling, carbon taxes still might increase the burden on poor households in the medium term. Therefore, the report advised, some of the revenue generated should help offset those costs.\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266414\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266414\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266414%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266414%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/nce-report_costs_colorcorrected.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/nce-report_costs_colorcorrected.jpeg?w=793\\\" alt=\\\"\\\" title=\\\"​\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E​\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003EIt\\u0026#8217;s also worth considering one of the main reasons we need all this fossil fuel: cars.\\u003C/p\\u003E\\n\\u003Cp\\u003ESprawl, it turns out, is expensive. Cities designed long ago for car commuting are seeing their costs of public services, utilities, and infrastructure soar—the US, for example, now shells out $400 billion a year in these costs.\\u003C/p\\u003E\\n\\u003Cp\\u003EGovernments have a choice: they can allow cities to grow in an unplanned, unstructured, and usually car-dependent way, adding another 1 billion cars to city roads. Or they can invest in building more compact cities with better transport systems, maximizing resources at the same time as they slash emissions. Taking the latter path will save up to $3.4 trillion by 2030, according to the report.\\u003C/p\\u003E\\n\\u003Cfigure id=\\\"image-266412\\\" class=\\\"inline-image  aligncenter zoomable size-medium\\\"\\u003E\\u003Cdiv class=\\\"inline-image-tools\\\"\\u003E\\u003Ca href=\\\"#\\\" class=\\\"share-button\\\" data-image-id=\\\"266412\\\"\\u003EShare\\u003C/a\\u003E\\n\\t\\t\\t\\u003Cdiv class=\\\"share-icons desaturated\\\"\\u003E\\u003Ca href=\\\"https://twitter.com/intent/tweet?url=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266412%2F\\u0026text=Countries+can+rescue+the+planet+from+meltdown+and+save+money+doing+it\\u0026via=qz\\\" target=\\\"_blank\\\" class=\\\"icon-twitter\\\"\\u003E\\u003C/a\\u003E\\u003Ca href=\\\"https://www.facebook.com/sharer.php?u=http%3A%2F%2Fqz.com%2F266329%2Fcountries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it%2Fi%2F266412%2F\\\" target=\\\"_blank\\\" class=\\\"icon-facebook\\\"\\u003E\\u003C/a\\u003E\\u003C/div\\u003E\\u003Cspan class=\\\"help-text\\\"\\u003E\\u003Ci class=\\\"icon-zoom\\\"\\u003E\\u003C/i\\u003ETap image to zoom\\u003C/span\\u003E\\u003C/div\\u003E\\u003Cimg src=\\\"http://img.qz.com/2014/09/01-atlanta-and-barcelona_colorcorrected.jpeg?w=640\\\" data-retina=\\\"http://img.qz.com/2014/09/01-atlanta-and-barcelona_colorcorrected.jpeg?w=1024\\\" alt=\\\"\\\" title=\\\"\\\"/\\u003E\\u003Cfigcaption class=\\\"inline-image-caption\\\"\\u003E\\u003Cspan class=\\\"inline-image-credit\\\"\\u003EGlobal Commission on the Economy and Climate\\u003C/span\\u003E\\u003C/figcaption\\u003E\\u003C/figure\\u003E\\n\\u003Cp\\u003EAnother area the report explored is agriculture, which contributes about a quarter of the Earth\\u0026#8217;s greenhouse gas emissions. One fourth of the planet\\u0026#8217;s arable land has been exploited so willy-nilly that it barely grows anything anymore. Instead of restoring it, we continue to clear forests to make more of it—razing what are essentially huge sponges of CO2 absorption.\\u003C/p\\u003E\\n\\u003Cp\\u003EHere, too, the incentives are off. Funds that currently subsidize industrial agriculture in rich countries would be better spent on R\\u0026amp;D to improve productivity and restore degraded farmland, according to the report. Rehabilitating just 12% of degraded land would feed 200 million people and generate $40 billion a year in farmer income.\\u003C/p\\u003E\\n\\u003Cp\\u003EWhat would happen if these and the other recommendations from the GCEC magically came true? The group estimated that the planet would achieve 90% of the emissions reductions that need to happen by 2030 to undershoot that 2ºC threshold. It\\u0026#8217;s heartening to see carefully plotted, market-based solutions to what increasingly seem like insurmountable problems. Then again, the realization that 72 pages worth of comprehensive global recommendations would still only get us most of the way there is a reminder of just how radically the world will have to change if we\\u0026#8217;re to avoid the coming meltdown.\\u003C/p\\u003E\\u003Cimg alt=\\\"\\\" border=\\\"0\\\" src=\\\"http://pixel.wp.com/b.gif?host=qz.com\\u0026#038;blog=39587363\\u0026#038;post=266329\\u0026#038;subd=qzprod\\u0026#038;ref=\\u0026#038;feed=1\\\" width=\\\"1\\\" height=\\\"1\\\" /\\u003E\",\"comments\":\"http://qz.com/266329/countries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it/#comments\",\"pubDate\":\"2014-09-16T09:11:39-07:00\",\"category\":\"Uncategorized\",\"guid\":\"http://qz.com/?p=266329\",\"dc_creator\":\"Gwynn Guilford\",\"media_content_url\":\"http://img.qz.com/2014/09/climate-change-global-warming-calderon-commission-report-celsius.jpg?w=640\",\"media_content_type\":\"html\",\"media_title\":\"climate change global warming calderon commission report celsius\",\"media_thumbnail_url\":\"http://img.qz.com/2014/09/climate-change-global-warming-calderon-commission-report-celsius.jpg?w=640\"}"], ["link", "http://qz.com/266329/countries-can-rescue-the-planet-from-meltdown-and-save-money-doing-it/"], ["published_at", Tue, 16 Sep 2014 16:11:39 UTC +00:00], ["title", "Countries can rescue the planet from meltdown and save money doing it"], ["updated_at", Wed, 17 Sep 2014 00:48:59 UTC +00:00]]
   [1m[35m (1.9ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 17:56:11 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/models/feed_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/collections/entries_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/models/entry_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/collections/feeds_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/views/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-09-16 17:56:12 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:12.223851' WHERE "feeds"."id" = 1[0m
+  [1m[35m (1.9ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915370"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:56:10+00:00\",\"link\":\"http://example.com/test/1410915370\",\"description\":\"Pariatur elit irure tempor esse eiusmod in aute esse ipsum aliquip est elit ea.\",\"pubDate\":\"2014-09-16T17:56:10-07:00\",\"guid\":\"http://example.com/test/1410915370\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915370"], ["published_at", Wed, 17 Sep 2014 00:56:10 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:56:10+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[36m (5.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915360"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:56:00+00:00\",\"link\":\"http://example.com/test/1410915360\",\"description\":\"Ea commodo dolor minim labore aliqua sunt proident non eiusmod aute amet ea.\",\"pubDate\":\"2014-09-16T17:56:00-07:00\",\"guid\":\"http://example.com/test/1410915360\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915360"], ["published_at", Wed, 17 Sep 2014 00:56:00 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:56:00+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915350"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:50+00:00\",\"link\":\"http://example.com/test/1410915350\",\"description\":\"Elit et et laborum adipisicing mollit ea magna est.\",\"pubDate\":\"2014-09-16T17:55:50-07:00\",\"guid\":\"http://example.com/test/1410915350\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915350"], ["published_at", Wed, 17 Sep 2014 00:55:50 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:50+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915340"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:40+00:00\",\"link\":\"http://example.com/test/1410915340\",\"description\":\"Aliquip consectetur in ullamco aliquip do velit nisi.\",\"pubDate\":\"2014-09-16T17:55:40-07:00\",\"guid\":\"http://example.com/test/1410915340\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915340"], ["published_at", Wed, 17 Sep 2014 00:55:40 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:40+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915330"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:30+00:00\",\"link\":\"http://example.com/test/1410915330\",\"description\":\"Qui irure elit veniam incididunt id eu officia do.\",\"pubDate\":\"2014-09-16T17:55:30-07:00\",\"guid\":\"http://example.com/test/1410915330\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915330"], ["published_at", Wed, 17 Sep 2014 00:55:30 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:30+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915320"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:20+00:00\",\"link\":\"http://example.com/test/1410915320\",\"description\":\"Consectetur sunt pariatur excepteur ullamco.\",\"pubDate\":\"2014-09-16T17:55:20-07:00\",\"guid\":\"http://example.com/test/1410915320\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915320"], ["published_at", Wed, 17 Sep 2014 00:55:20 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:20+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915310"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:10+00:00\",\"link\":\"http://example.com/test/1410915310\",\"description\":\"Pariatur dolor ullamco eu quis sunt.\",\"pubDate\":\"2014-09-16T17:55:10-07:00\",\"guid\":\"http://example.com/test/1410915310\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915310"], ["published_at", Wed, 17 Sep 2014 00:55:10 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:10+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915300"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:55:00+00:00\",\"link\":\"http://example.com/test/1410915300\",\"description\":\"Proident aliqua cupidatat commodo irure minim velit incididunt ut aliqua commodo id velit voluptate.\",\"pubDate\":\"2014-09-16T17:55:00-07:00\",\"guid\":\"http://example.com/test/1410915300\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915300"], ["published_at", Wed, 17 Sep 2014 00:55:00 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:55:00+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915290"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:54:50+00:00\",\"link\":\"http://example.com/test/1410915290\",\"description\":\"Excepteur esse aute nostrud sint commodo dolor est pariatur dolore.\",\"pubDate\":\"2014-09-16T17:54:50-07:00\",\"guid\":\"http://example.com/test/1410915290\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915290"], ["published_at", Wed, 17 Sep 2014 00:54:50 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:54:50+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915280"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:54:40+00:00\",\"link\":\"http://example.com/test/1410915280\",\"description\":\"Ipsum proident sunt non exercitation aliquip aliquip deserunt amet duis amet est.\",\"pubDate\":\"2014-09-16T17:54:40-07:00\",\"guid\":\"http://example.com/test/1410915280\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915280"], ["published_at", Wed, 17 Sep 2014 00:54:40 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:54:40+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:12 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36mEntry Load (2.4ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 1]]
+  [1m[35mSQL (1.4ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:12.735544' WHERE "feeds"."id" = 2
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 2]]
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:13.977725' WHERE "feeds"."id" = 5[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 5]]
+  [1m[35mSQL (5.3ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:14.607998' WHERE "feeds"."id" = 7
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 7]]
+  [1m[36mSQL (1.7ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:14.794794' WHERE "feeds"."id" = 8[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.4ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 8]]
+Completed 200 OK in 3653ms (Views: 3609.2ms | ActiveRecord: 43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/models/entry_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/models/feed_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/collections/entries_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/collections/feeds_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/views/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-09-16 17:56:24 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+  [1m[36mSQL (5.2ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:24.951430' WHERE "feeds"."id" = 1[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 17 Sep 2014 00:56:25 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915380"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:56:20+00:00\",\"link\":\"http://example.com/test/1410915380\",\"description\":\"Laborum ullamco cillum aliqua est veniam veniam pariatur ut.\",\"pubDate\":\"2014-09-16T17:56:20-07:00\",\"guid\":\"http://example.com/test/1410915380\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915380"], ["published_at", Wed, 17 Sep 2014 00:56:20 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:56:20+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:25 UTC +00:00]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mEntry Load (1.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 1]]
+  [1m[36mSQL (1.3ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:25.718183' WHERE "feeds"."id" = 2[0m
+  [1m[35m (0.8ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 2]]
+  [1m[35mSQL (1.3ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:26.855928' WHERE "feeds"."id" = 5
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 5]]
+  [1m[36mSQL (1.6ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:27.026425' WHERE "feeds"."id" = 7[0m
+  [1m[35m (0.9ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 7]]
+  [1m[35mSQL (1.2ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:27.568535' WHERE "feeds"."id" = 8
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 8]]
+Completed 200 OK in 3704ms (Views: 3680.7ms | ActiveRecord: 22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/models/entry_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/models/feed_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/collections/entries_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/collections/feeds_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/views/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+
+
+Started GET "/api/feeds/1" for 127.0.0.1 at 2014-09-16 17:56:30 -0700
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mSQL (1.7ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:30.815886' WHERE "feeds"."id" = 1
+  [1m[36m (0.8ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 17 Sep 2014 00:56:31 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1410915390"], ["json", "{\"title\":\"Lorem ipsum 2014-09-17T00:56:30+00:00\",\"link\":\"http://example.com/test/1410915390\",\"description\":\"Est veniam culpa esse culpa labore eu excepteur voluptate enim magna qui occaecat.\",\"pubDate\":\"2014-09-16T17:56:30-07:00\",\"guid\":\"http://example.com/test/1410915390\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1410915390"], ["published_at", Wed, 17 Sep 2014 00:56:30 UTC +00:00], ["title", "Lorem ipsum 2014-09-17T00:56:30+00:00"], ["updated_at", Wed, 17 Sep 2014 00:56:31 UTC +00:00]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36mEntry Load (1.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 1]]
+Completed 200 OK in 389ms (Views: 378.4ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/models/entry_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/models/feed_model.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/collections/entries_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/collections/feeds_collection.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/views/entries/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2014-09-16 17:56:37 -0700
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.2ms)[0m  SELECT "feeds".* FROM "feeds"
+  [1m[36mSQL (5.1ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:37.925584' WHERE "feeds"."id" = 1[0m
+  [1m[35m (0.8ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (1.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 1]]
+  [1m[35mSQL (1.5ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:38.266901' WHERE "feeds"."id" = 2
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.4ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 2]]
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:39.413429' WHERE "feeds"."id" = 5[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 5]]
+  [1m[35mSQL (1.7ms)[0m  UPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:39.578542' WHERE "feeds"."id" = 7
+  [1m[36m (0.7ms)[0m  [1mSELECT "entries"."guid" FROM "entries"[0m
+  [1m[35mEntry Load (0.2ms)[0m  SELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?  [["feed_id", 7]]
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2014-09-17 00:56:40.114041' WHERE "feeds"."id" = 8[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36mEntry Load (0.2ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = ?[0m  [["feed_id", 8]]
+Completed 200 OK in 3018ms (Views: 3001.0ms | ActiveRecord: 16.6ms)
